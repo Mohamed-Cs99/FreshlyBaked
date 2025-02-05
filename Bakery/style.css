@@ -1,0 +1,467 @@
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent background */
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.Navcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo img {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.nav-toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+  
+}
+
+.nav a {
+    margin-left: 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.nav-open {
+    display: flex !important;
+   
+}
+
+.nav a:hover {
+    color: #8e7754; /* Change color on hover */
+}
+
+
+/* Sidebar Styling */
+.side {
+    width: 45px;
+    height: 90px;
+    background-color: gray;
+    border-radius: 5px;
+    position: fixed;
+    top: 100px;
+    right: 0;
+}
+
+/* Home Section Styling */
+.home {
+    background-image: url(Bakery_imgs/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: auto;
+}
+
+.home_content {
+    color: white;
+    margin-top: 200px;
+    padding: 20px 0;
+}
+
+.home_content h1 {
+    font-size: 80px;
+}
+
+.home_content p {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 20px 30px;
+    color: white;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn1 {
+    margin-right: 10px;
+    border: none;
+    background-color: #8e7754;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn2 {
+    border: solid 2px white;
+    background: transparent;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Other Sections (No changes needed) */
+
+body {
+    font-family: 'Alegreya', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Bar */
+
+
+
+
+
+/*Section 4 Content */
+.baking {
+    padding: 25px;
+    text-align: center;
+
+}
+
+.baking p {
+    color: #888;
+    padding: 15px 0px 30px;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.bake_item {
+    width: 33.33333333333333%;
+    float: left;
+
+
+    border: solid white 1px;
+    padding: 10px;
+}
+
+.bake_item h3 {
+
+    padding: 20px;
+
+    font-size: 23px;
+}
+
+.bake_item p {
+
+    padding: 15px;
+}
+
+.bake_item img {
+    width: 100%;
+}
+
+
+.clr {
+    clear: both;
+}
+
+
+/* Sec2 Css */
+
+.sec2 {
+
+    padding: 30px 0px;
+}
+
+.s2 {
+
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.s22 {
+
+    margin-top: 50px;
+
+}
+
+.s22 p {
+    padding: 20px 0px;
+}
+
+.s22 ul {
+
+    list-style: armenian;
+    padding: 20px;
+}
+
+.s22 li {
+    padding: 10px;
+}
+
+.s2 img {
+    width: 100%;
+}
+
+/*Section 3 Css */
+
+.sec3 {
+    background-color: #f8f8f8;
+}
+
+.s3 {
+
+    width: 50%;
+    float: left;
+    padding: 50px 0px;
+}
+
+.s31 {
+
+    margin-top: 100px;
+    padding: 30px;
+}
+
+.s32 {
+    padding-left: 30px;
+
+}
+
+.s31 p {
+
+    padding: 20px 0px;
+}
+
+.s3 img {
+    width: 100%;
+
+}
+
+/* Ending of sec3 */
+
+/* Contact information section */
+
+.info {
+    background-color: #f8f8f8;
+    margin: 30px 0px 50px;
+}
+
+.contacts {
+
+    width: 50%;
+    float: left;
+}
+
+.c1 {
+
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.c1 p {
+
+    padding: 15px 0px;
+}
+
+.c1 ul {
+
+    padding: 5px 20px;
+    list-style: lower-roman;
+}
+
+.c1 li {
+    padding: 15px;
+}
+
+.c2 {
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+.c2 iframe {
+    width: 100%;
+    height: 70%;
+}
+
+
+/* Ending of Contacts information section */
+/* About Section Css */
+
+.about {
+    background-color: #403d38;
+    padding: 50px 0px;
+}
+
+.ab {
+
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+.ab h4 {
+
+    padding: 20px;
+    color: #ffffff;
+}
+
+.ab p {
+    color: #969696;
+}
+
+.ab ul {
+
+    padding: 5px 20px;
+    list-style: lower-roman;
+}
+
+.ab li {
+    padding: 10px;
+    color: #969696;
+}
+
+.ab hr {
+    color: #969696;
+}
+
+.four {
+    background-image: url(Bakery_imgs/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/*Ending of about section  */
+
+
+.final-sec {
+    background-color: #353330;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.final-sec img {
+    margin: 30px 0px 20px;
+}
+
+.final-sec p {
+    color: #777;
+}
+
+.circle {
+    background-color: gray;
+
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .bake_item, .s2, .s3, .contacts, .ab {
+        width: 100%;
+    }
+    
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(51, 51, 51, 0.9);
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav a {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        order: 2;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:786Px) {
+    .bake_item, .ab {
+        width: 50%;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(51, 51, 51, 0.9);
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav a {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-toggle {
+        order: 2;
+    }
+
+}
